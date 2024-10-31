@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-let handleVerticalPadding: CGFloat = 16
+let handleVerticalPadding: CGFloat = 8
 let handleThickness: CGFloat = 5
 
 public struct SnapDrawer<StateType: SnapState, Background : View, Content: View> : View {
