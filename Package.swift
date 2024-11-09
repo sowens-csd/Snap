@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Snap",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v13), .macOS("11.0")],
     products: [
         .library(name: "Snap",
                  targets: ["Snap"]),
