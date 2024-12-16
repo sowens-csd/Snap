@@ -77,3 +77,33 @@ Contributions are welcome and encouraged!
 
 ## License
 Snap is available under the MIT license. See the LICENSE file for more info.
+
+## Documentation (csd fork)
+
+The blur effect can be changed in BlurView.swift by modifying lines 9 & 26
+
+Possible style are:
+let listBlurView: [BlurView] = [
+        BlurView(style: .systemThickMaterial),              //0
+        BlurView(style: .systemChromeMaterialLight),        //1
+        BlurView(style: .systemChromeMaterial),             //2
+        BlurView(style: .extraLight),                       //3
+        BlurView(style: .systemMaterial),                   //4
+        BlurView(style: .systemMaterialLight),              //5
+        BlurView(style: .prominent),                        //6
+        BlurView(style: .systemThinMaterialLight),          //7
+        BlurView(style: .systemThinMaterial),               //8
+        BlurView(style: .regular),                          //9
+        BlurView(style: .regular),                          //10
+        BlurView(style: .light),                            //11
+        BlurView(style: .systemUltraThinMaterialLight),     //12
+        BlurView(style: .systemUltraThinMaterial),          //13
+        BlurView(style: .systemUltraThinMaterialDark),      //14
+        BlurView(style: .systemThinMaterialDark),           //15
+        BlurView(style: .systemChromeMaterialDark),         //16
+        BlurView(style: .systemMaterialDark),               //17
+        BlurView(style: .dark),                             //18
+        BlurView(style: .systemThickMaterialDark),          //19
+    ]
+
+Examples of the effect of these can be seen [here:](https://gstvdfnbch.medium.com/two-ways-to-do-glassmophisms-in-swiftui-swiftui-uikit-uiblureffect-7b63da1a9292)
