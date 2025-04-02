@@ -60,7 +60,7 @@ public struct SnapDrawer<StateType: SnapState, Background : View, Content: View>
                 currentResult.state.visible.map { content($0).frame(height: currentResult.contentHeight) }
                 
                 Spacer()
-            }
+            }.background(Color.purple)
         }
         .frame(height: UIScreen.main.bounds.height)
         .clipShape(RoundedRectangle(cornerRadius: 20))
